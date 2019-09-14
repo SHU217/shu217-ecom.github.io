@@ -1,0 +1,204 @@
+/**********************************BODY*********************/
+
+body {
+background-color:white;
+margin:0px;
+padding:0px;
+}
+body a {
+text-decoration:none;
+}
+a:link { color:black;}
+a:visited { color:black;}
+a:active { color:black;}
+/*************************************PAGE *******************/
+
+#page {
+background-color:#eeeeee;
+margin:0px auto;
+padding:0px;
+width:900px;
+font-family:sans-serif;
+height:1400px;
+}
+#page .info {
+text-align:center;
+}
+
+/***********HEADER***************/
+
+#header {
+background-image:url(images/bg.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+width:900px;
+text-align:left;
+padding-top:20px;
+color:black;
+height:220px;
+}
+#header h1 {
+margin:0px;
+margin-left:20px;
+font-size:60px;
+color:white;
+}
+#header h2 {
+margin:0px;
+margin-left:20px;
+font-size:24px;
+color:yellow;
+}
+
+/****************MENU******************/
+
+#menu {
+background-color:darkblue;
+width:100%;
+float:left;
+height:40px;
+}
+#menu a {
+color:white;
+text-decoration:none;
+float:left;
+padding:10px 30px 10px 58px;
+}
+#menu a:hover {
+color:yellow;
+}
+
+
+/*******************************************LEFT NAVIGATION**************/
+#leftnav {
+width:210px;
+height:700px;
+display:block;
+text-align:left;
+float:left;
+}
+#leftnav ul li{
+list-style:none;
+padding:5px;
+text-align:left;
+border:1px solid white;
+border-radius:8px;
+margin-top:5px;
+margin-left:-25px;
+}
+#leftnav p {
+margin-left:-25px;
+padding:8px;
+background-color:rgb(0,120,225);
+border:1px solid blue;
+border-radius:8px;
+color:white;
+}
+#leftnav ul li:hover {
+background-color:white;
+color:black;
+}
+#leftnav h2{
+font-size:20px;
+color:darkgreen;
+text-align:center;
+line-height:30px;
+}
+
+/***************************************SECTION*****************/
+
+#section {
+width:450px;
+height:980px;
+float:left;
+padding:10px;
+}
+
+.daydeal {
+padding:10px;
+text-align:center;
+color:white;
+width:430px;
+margin-left:8px;
+background-color:orange;
+border-radius:2px;
+}
+
+.product {
+width:400px;
+height:280px;
+margin-left:35px;
+margin-bottom:20px;
+border-radius:20px;
+background-color:white;
+}
+
+.productimage {
+width:280px;
+height:220px;
+}
+.name {
+margin-left:30px;
+float:left;
+margin-top:15px;
+font-size:20px;
+}
+.price {
+margin-left:30px;
+float:left;
+color:red;
+}
+.offer {
+float:right;
+margin-right:20px;
+color:red;
+}
+
+/************RIGHT NAVIGATION******************/
+
+#rightnav {
+width:210px;
+height:700px;
+text-align:left;
+float:left;
+}
+#rightnav ul li{
+list-style:none;
+padding:5px;
+text-align:left;
+border:1px solid white;
+border-radius:8px;
+margin-top:5px;
+margin-left:-25px;
+}
+#rightnav p {
+margin-left:-25px;
+padding:8px;
+background-color:rgb(0,120,225);
+border:1px solid blue;
+border-radius:8px;
+color:white;
+}
+#rightnav ul li:hover {
+background-color:white;
+color:black;
+}
+
+/*************FOOTER*******************/
+#footer {
+background-color:rgb(0,110,225);
+width:100%;
+float:left;
+color:white;
+margin-bottom:10px;
+text-align:center;
+height:50px;
+}
+#footer h3 {
+font-size:16px; 
+float:left;
+margin-left:20px;
+}
+#footer .designby {
+margin-right:20px;
+}
