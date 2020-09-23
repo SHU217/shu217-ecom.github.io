@@ -1,2 +1,2 @@
-# shu217-ecom.github.io
-Ecommerce Website
+# dev-shubhamsharma.github.io
+Static Ecommerce Website for My Olevel Project
